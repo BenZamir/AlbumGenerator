@@ -1,0 +1,7 @@
+The supplied image is a frame to the album, to verify it is digestable by hte environment
+
+im = Image.open("file.mpo")
+im.seek(1)      
+frame = im.copy()
+
+Then save the output
